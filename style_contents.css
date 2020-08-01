@@ -1,0 +1,39 @@
+li{
+    margin-bottom: 10px;
+    font-size: 30px;
+    width: 250px;
+    margin-top: 30px;
+}
+
+h1{
+    font-size: 35px;
+    text-align: center;
+    margin-right: 70px;
+    margin-top: 30px;
+}
+#back{
+    position: absolute;
+    font-size: 30px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px 200px;
+}
+#first{
+    grid-column:1 ;
+    grid-row: 1;
+}
+#second{
+    grid-column: 2;
+    grid-row: 1;
+}
+#third{
+    grid-column: 3;
+    grid-row: 1;
+}
+.down{
+    margin-left: 50px;
+}
